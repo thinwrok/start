@@ -1,6 +1,7 @@
-# ======================================================
+# ======================================================================
 # Ubuntu 24. maquina ( junior / Davi ) - Desenvolvimento 
-# ======================================================
+# curl -sSL https://github.com/thinwrok/start/blob/main/ubuntu.sh | bash
+# ======================================================================
 
 # Recursos
 sudo apt update && sudo apt upgrade -y
@@ -9,7 +10,6 @@ sudo apt install -y apparmor-utils
 sudo apt install -y apt-utils 
 sudo apt install -y apache2-utils     
 sudo apt install -y python3
-sudo apt update && sudo apt upgrade -y
 
 # Ambiente Lang
 ACCEPT_EULA=Y
