@@ -75,5 +75,12 @@ sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 ```
 
+ou
+
+```bash
+
+ curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
+
+```
 ---
 
