@@ -39,7 +39,6 @@ Abaixo estão os pacotes instalados com o comando `sudo apt install` no terminal
 | `dialog`              | 🧱       | Cria menus e interfaces simples em modo texto. |
 | `openssl`             | 🔒       | Ferramentas de criptografia e certificados SSL/TLS. |
 | `tmux`                | 🖥️       | Multiplexador de terminal (sessões, janelas, splits). |
-| `bc`                  | 🧮       | Calculadora em precisão arbitrária. |
 | `rsync`               | 🔄       | Sincroniza arquivos e pastas de forma eficiente. |
 | `iputils-ping`        | 🌐       | Comando `ping` para testar conectividade de rede. |
 | `cpu-checker`         | ⚙️       | Verifica suporte a virtualização (KVM, etc.). |
@@ -64,8 +63,8 @@ sudo apt update
 # Pacotes principais
 sudo apt install -y \
   sudo curl wget nano htop mc tar rpm zip unzip git jq dialog \
-  openssl tmux fish bc rsync iputils-ping cpu-checker \
-  neofetch screenfetch
+  openssl tmux fish rsync iputils-ping cpu-checker \
+  neofetch 
 
 # Utilitários de segurança e sistema
 sudo apt install -y apt-utils
