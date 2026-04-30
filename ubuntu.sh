@@ -3,6 +3,7 @@
 # Ubuntu 24.XX - Desenvolvimento - DevTools - Docker - easypanel - util - ( Junior / Davi )
 # curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
+# curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 # ========================================================================================
 
 # Recursos
