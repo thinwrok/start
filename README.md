@@ -17,7 +17,7 @@
 [![Cloud](https://img.shields.io/badge/Cloud-Azure_|_AWS_|_OpenShift-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
  
 </div>
----
+
  
 > ## ⚠️ Aviso Importante
 >
@@ -27,7 +27,6 @@
 
  Para ambientes **expostos à web**, é necessário aplicar hardening adicional: firewall (UFW/iptables), `fail2ban`, SSH com chaves, atualizações automáticas, monitoramento e auditoria. Consulte a Thinwork para projetos em **Azure**, **Red Hat OpenShift** e **AWS**.
  
----
  
 ## 🏷️ Informações do ambiente
  
