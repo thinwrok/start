@@ -13,10 +13,10 @@
 
 # Recursos
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish bc rsync iputils-ping cpu-checker neofetch screenfetch
+sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker neofetch 
 sudo apt install -y apparmor-utils
-sudo apt install -y apt-utils 
-sudo apt install -y apache2-utils     
+sudo apt install -y apt-utils
+sudo apt install -y apache2-utils
 
 # Ambiente Lang
 ACCEPT_EULA=Y
@@ -33,7 +33,7 @@ echo "SELINUX=disabled" > /etc/selinux/config
 echo "PS1='\[\e[1;32m\]\h \[\e[1;31m\]@ \u \[\e[1;34m\]\w \[\e[1;31m\]\$ \[\e[0;37m\]'" >> ~/.bashrc
 echo "alias ls='ls --color=auto'" >> ~/.bashrc
 
-# Habiliar o root fazer login  
+# Habiliar o root fazer login
 sudo passwd root
 sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sudo systemctl restart ssh
