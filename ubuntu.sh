@@ -4,6 +4,11 @@
 # curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
+#
+# +---------------------------------------------------------------+
+# | Procedimento Apos Install ISO padrao - Ubuntu 24 Server LTS   |
+# +---------------------------------------------------------------+
+#
 # ========================================================================================
 
 # Recursos
