@@ -1,5 +1,5 @@
 ```markdown
-# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento - www.thinwork.com.br
 ```
 
 # 🐧 Ubuntu 24 Server LTS – Terminal Toolkit
@@ -68,7 +68,6 @@ sudo apt install -y \
   neofetch screenfetch
 
 # Utilitários de segurança e sistema
-sudo apt install -y apparmor-utils
 sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 ```
