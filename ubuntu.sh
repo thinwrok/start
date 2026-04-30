@@ -9,6 +9,8 @@
 # | Procedimento Apos Install ISO padrao - Ubuntu 24 Server LTS   |
 # +---------------------------------------------------------------+
 #
+#                     ** Uso em ( Servidor / VPS ) Interno **
+#              Sem regras de segurança para máquinas expostas à web 
 # ========================================================================================
 
 # Recursos
