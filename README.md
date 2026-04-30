@@ -1,6 +1,7 @@
 ```markdown
 # Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento - www.thinwork.com.br
-                    ## ** Uso em Servidor / VPS interna **
+                                ## ** Uso em ( Servidor / VPS ) Interno **
+                          ## Sem regras de segurança para máquinas expostas à web 
 ```
 
 # 🐧 Ubuntu 24 Server LTS – Terminal Toolkit
