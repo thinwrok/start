@@ -1,29 +1,25 @@
 <div align="center">
 # 🐧 Ubuntu 24 Server LTS — Terminal Toolkit
  
-### Ambiente de servidor preparado para administração avançada, DevOps e automação
- 
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04_LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![License](https://img.shields.io/badge/License-Open_Source-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/)
-[![DevOps](https://img.shields.io/badge/DevOps-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
- 
----
- 
 ### **Thinwork** — Tecnologia • DevOps • Consultoria • Desenvolvimento
  
 [![Site](https://img.shields.io/badge/🌐_Site-www.thinwork.com.br-0078D4?style=flat-square)](https://www.thinwork.com.br)
 [![Email](https://img.shields.io/badge/📧_Contato-ti@thinwork.com.br-D44638?style=flat-square)](mailto:ti@thinwork.com.br)
 [![Cloud](https://img.shields.io/badge/Cloud-Azure_|_AWS_|_OpenShift-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
+
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04_LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![License](https://img.shields.io/badge/License-Open_Source-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/)
+[![DevOps](https://img.shields.io/badge/DevOps-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
  
 </div>
 
  
-> ## ⚠️ Aviso Importante
->
-> | 🔒 **Uso interno** | 🚫 **Sem hardening web** | 🤝 **Suporte disponível** |
-> |:---:|:---:|:---:|
-> | Destinado a **Servidor / VPS interno** | **Não aplica** regras de segurança para máquinas expostas à internet pública | Precisa de ajuda para montar seu ambiente? **[Entre em contato](mailto:ti@thinwork.com.br)** |
+ ## ⚠️ Aviso Importante
+
+ | 🔒 **Uso interno** | 🚫 **Sem hardening web** | 🤝 **Suporte disponível** |
+ |:---:|:---:|:---:|
+ | Destinado a **Servidor / VPS interno** | **Não aplica** regras de segurança para máquinas expostas à internet pública | Precisa de ajuda para montar seu ambiente? **[Entre em contato](mailto:ti@thinwork.com.br)** |
 
  Para ambientes **expostos à web**, é necessário aplicar hardening adicional: firewall (UFW/iptables), `fail2ban`, SSH com chaves, atualizações automáticas, monitoramento e auditoria. Consulte a Thinwork para projetos em **Azure**, **Red Hat OpenShift** e **AWS**.
  
