@@ -1,3 +1,9 @@
+```markdown
+[
+Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+[
+```
+
 # 🐧 Ubuntu 24 Server LTS – Terminal Toolkit
 
 Ambiente de servidor Ubuntu 24.04 LTS (Noble Numbat) preparado para uso avançado em modo terminal, com pacotes úteis para administração de sistemas, rede, automação e segurança.
@@ -8,7 +14,7 @@ Ambiente de servidor Ubuntu 24.04 LTS (Noble Numbat) preparado para uso avançad
 
 - **Sistema operacional**: Ubuntu 24.04 LTS Server (sem desktop)  
 - **Gerenciador de pacotes**: `apt`  
-- **Foco**: uso em modo terminal, servidor, homelab ou DevOps simples  
+- **Foco**: uso em modo terminal, servidor , DevOps simples  
 - **Licença**: Free and open source (pacotes padrão Ubuntu)
 
 ---
@@ -45,7 +51,6 @@ Abaixo estão os pacotes instalados com o comando `sudo apt install` no terminal
 
 | Pacote              | Ícone    | Descrição breve |
 |---------------------|----------|-----------------|
-| `apparmor-utils`    | 🛡️       | Ferramentas para gerenciar perfis AppArmor. |
 | `apt-utils`         | 🧩       | Utilitários extra para melhorar o uso do `apt`. |
 | `apache2-utils`     | 🌐       | Ferramentas úteis para testar servidores HTTP (ex.: `ab`, `htpasswd`). |
 
