@@ -25,21 +25,7 @@
  Para ambientes **expostos à web**, é necessário aplicar hardening adicional: firewall (UFW/iptables), `fail2ban`, SSH com chaves, atualizações automáticas, monitoramento e auditoria. Consulte a Thinwork para projetos em **Azure**, **Red Hat OpenShift** e **AWS**.
  
  
-## 🏷️ Informações do ambiente
- 
-| Item | Detalhe |
-|---|---|
-| 🐧 **Sistema operacional** | Ubuntu 24.04 LTS Server *(Noble Numbat)* |
-| 🖥️ **Modo** | Terminal (sem ambiente gráfico) |
-| 📦 **Gerenciador de pacotes** | `apt` (APT 2.7+) |
-| 🎯 **Foco de uso** | Servidor, DevOps, automação, administração |
-| 🔄 **Suporte LTS** | Até abril de **2029** (5 anos) — extensível até 2034 com Ubuntu Pro |
-| 📜 **Licença** | Free and Open Source Software (FOSS) |
-| ⚙️ **Arquitetura** | x86_64 / ARM64 |
- 
----
- 
-## 📦 Pacotes instalados
+## 📦 Pacotes 
  
 ### 🖥️ Ferramentas de sistema e administração
  
