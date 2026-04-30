@@ -1,7 +1,5 @@
 ```markdown
-[
-Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
-[
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
 ```
 
 # 🐧 Ubuntu 24 Server LTS – Terminal Toolkit
