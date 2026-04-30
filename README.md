@@ -24,24 +24,9 @@
 > | 🔒 **Uso interno** | 🚫 **Sem hardening web** | 🤝 **Suporte disponível** |
 > |:---:|:---:|:---:|
 > | Destinado a **Servidor / VPS interno** | **Não aplica** regras de segurança para máquinas expostas à internet pública | Precisa de ajuda para montar seu ambiente? **[Entre em contato](mailto:ti@thinwork.com.br)** |
->
-> Para ambientes **expostos à web**, é necessário aplicar hardening adicional: firewall (UFW/iptables), `fail2ban`, SSH com chaves, atualizações automáticas, monitoramento e auditoria. Consulte a Thinwork para projetos em **Azure**, **Red Hat OpenShift** e **AWS**.
+
+ Para ambientes **expostos à web**, é necessário aplicar hardening adicional: firewall (UFW/iptables), `fail2ban`, SSH com chaves, atualizações automáticas, monitoramento e auditoria. Consulte a Thinwork para projetos em **Azure**, **Red Hat OpenShift** e **AWS**.
  
----
- 
-## 📑 Sumário
- 
-- [🏷️ Informações do ambiente](#️-informações-do-ambiente)
-- [📦 Pacotes instalados](#-pacotes-instalados)
-  - [🖥️ Sistema e administração](#️-ferramentas-de-sistema-e-administração)
-  - [🌐 Rede e conectividade](#-rede-e-conectividade)
-  - [🛡️ Segurança e utilitários](#️-segurança-e-utilitários-do-sistema)
-- [💻 Instalação](#-instalação)
-  - [Método 1: Manual](#método-1--instalação-manual-recomendado-para-aprender)
-  - [Método 2: Script automatizado](#método-2--script-automatizado-thinwork-rápido)
-- [✅ Verificação pós‑instalação](#-verificação-pós-instalação)
-- [🚀 Próximos passos](#-próximos-passos)
-- [📞 Suporte](#-suporte)
 ---
  
 ## 🏷️ Informações do ambiente
