@@ -162,26 +162,10 @@ jq-1.7
 INFO: /dev/kvm exists
 KVM acceleration can be used
 ```
- 
+
 ---
  
-## 🚀 Próximos passos
- 
-Depois de configurar a base, considere instalar:
- 
-| Categoria | Sugestões |
-|---|---|
-| 🐳 **Containers** | Docker, Docker Compose, Podman |
-| ☸️ **Orquestração** | Kubernetes (k3s/microk8s), Helm |
-| 🔧 **IaC** | Terraform, Ansible, Pulumi |
-| 🔐 **Segurança web** | UFW, fail2ban, certbot, ClamAV |
-| 📈 **Observabilidade** | Prometheus, Grafana, Node Exporter |
-| 🧑‍💻 **Linguagens** | .NET SDK (C#), Node.js, Python, Go |
- 
-> 💬 A **Thinwork** ajuda no design e implementação de ambientes em **Azure**, **AWS** e **Red Hat OpenShift** — do servidor à esteira CI/CD.
- 
----
- 
+
 ## 📞 Suporte
  
 <div align="center">
@@ -190,7 +174,7 @@ Depois de configurar a base, considere instalar:
 | 🌐 | **[www.thinwork.com.br](https://www.thinwork.com.br)** |
 | 📧 | **[ti@thinwork.com.br](mailto:ti@thinwork.com.br)** |
 | 🛠️ | DevOps • Consultoria • Desenvolvimento • Cloud |
-| ☁️ | Azure • AWS • Red Hat OpenShift |
+| ☁️ | Azure • AWS • Red Hat OpenShift • Contabo |
  
 ---
  
