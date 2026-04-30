@@ -1,11 +1,12 @@
 <div align="center">
-# 🐧 Ubuntu 24 Server LTS — Terminal Toolkit
  
 ### **Thinwork** — Tecnologia • DevOps • Consultoria • Desenvolvimento
  
 [![Site](https://img.shields.io/badge/🌐_Site-www.thinwork.com.br-0078D4?style=flat-square)](https://www.thinwork.com.br)
 [![Email](https://img.shields.io/badge/📧_Contato-ti@thinwork.com.br-D44638?style=flat-square)](mailto:ti@thinwork.com.br)
 [![Cloud](https://img.shields.io/badge/Cloud-Azure_|_AWS_|_OpenShift-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
+
+### 🐧 Ubuntu 24 Server LTS — Terminal Toolkit
 
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04_LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
