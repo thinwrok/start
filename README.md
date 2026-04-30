@@ -148,16 +148,16 @@ KVM acceleration can be used
 
 ## 📞 Suporte
  
-<div align="center">
-| | |
-|:---:|:---|
-| 🌐 | **[www.thinwork.com.br](https://www.thinwork.com.br)** |
-| 📧 | **[ti@thinwork.com.br](mailto:ti@thinwork.com.br)** |
-| 🛠️ | DevOps • Consultoria • Desenvolvimento • Cloud |
-| ☁️ | Azure • AWS • Red Hat OpenShift • Contabo |
+| Canal | Contato |
+|---|---|
+| 🌐 **Site** | [www.thinwork.com.br](https://www.thinwork.com.br) |
+| 📧 **E‑mail** | [ti@thinwork.com.br](mailto:ti@thinwork.com.br) |
+| 🛠️ **Serviços** | DevOps • Consultoria • Desenvolvimento • Cloud |
+| ☁️ **Plataformas** | Azure • AWS • Red Hat OpenShift |
  
 ---
  
+<div align="center">
 *Made with ❤️ by **Thinwork** — Tecnologia que conecta.*
  
 </div>
