@@ -1,12 +1,13 @@
-# ======================================================================================
-# Ubuntu 24.XX - Desenvolvimento - DevTools - Docker - easypanel - ( Junior / Davi )
+# ========================================================================================
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+# Ubuntu 24.XX - Desenvolvimento - DevTools - Docker - easypanel - util - ( Junior / Davi )
 # curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
-# ======================================================================================
+# ========================================================================================
 
 # Recursos
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish bc rsync rclone iputils-ping cpu-checker neofetch screenfetch 
+sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish bc rsync iputils-ping cpu-checker neofetch screenfetch
 sudo apt install -y apparmor-utils
 sudo apt install -y apt-utils 
 sudo apt install -y apache2-utils     
@@ -30,3 +31,16 @@ echo "alias ls='ls --color=auto'" >> ~/.bashrc
 sudo passwd root
 sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sudo systemctl restart ssh
+
+# Complementos
+# curl -sSL https://get.easypanel.io | sh
+# curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
+# curl -sSL https://dokploy.com/install.sh | sh
+# curl -fsSL https://get.casaos.io/update | sudo bash
+# curl -sSL setup.oriondesign.art.br | sh
+# URL=https://www.aapanel.com/script/install_panel_en.sh && if [ -f /usr/bin/curl ];then curl -ksSO $URL ;else wget --no-check-certificate -O install_panel_en.sh $URL;fi;bash install_panel_en.sh ipssl
+
+
+
+
+
