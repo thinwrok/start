@@ -1,6 +1,8 @@
 # =================================================================================================
 # Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+#
 # Ubuntu 24.XX - Desenvolvimento - DevTools - Docker - easypanel - util - ( Junior / Davi / Carlos )
+#
 # curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/ubuntu.sh | sudo bash
 # curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
