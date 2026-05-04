@@ -46,6 +46,7 @@ sudo ufw allow 3000/tcp
 sudo ufw allow 5000/tcp
 sudo ufw allow 8080/tcp
 sudo ufw allow 9000/tcp
+sudo ufw allow 9090/tcp
 
 # Complementos
 #
@@ -53,6 +54,9 @@ sudo ufw allow 9000/tcp
 # Install -- [ curl -sSL https://get.easypanel.io | sudo sh ]
 # Remove  -- [ sudo docker service rm easypanel traefik && sudo docker swarm leave --force && sudo docker system prune -a -f --volumes && sudo rm -rf /etc/easypanel ]
 #
+# ** ajenti
+# curl https://raw.githubusercontent.com/ajenti/ajenti/master/scripts/install.sh | sudo bash -s -
+# 
 # curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
 # curl -sSL https://dokploy.com/install.sh | sudo sh
 # curl -fsSL https://get.casaos.io/update | sudo bash
