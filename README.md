@@ -75,20 +75,24 @@
 # Atualize a lista de pacotes e o sistema antes de instalar
 sudo apt update && sudo apt upgrade -y
 ```
- 
+
+
 ### Método — Script automatizado Thinwork *(rápido)*
  
 ```bash
 curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 ```
- 
+
+
 > ⚠️ **Boa prática de segurança:** antes de executar `curl | bash`, **inspecione o conteúdo do script**:
 > ```bash
 > curl -fsSL https://thinwork.com.br/dev/ubuntu.sh -o ubuntu.sh
 > less ubuntu.sh        # revisar
 > sudo bash ubuntu.sh   # executar após validar
 > ```
- 
+
+
+
 
 ## 📞 Suporte
  
