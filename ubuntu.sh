@@ -36,6 +36,17 @@ echo "SELINUX=disabled" > /etc/selinux/config
 echo "PS1='\[\e[1;32m\]\h \[\e[1;31m\]@ \u \[\e[1;34m\]\w \[\e[1;31m\]\$ \[\e[0;37m\]'" >> ~/.bashrc
 echo "alias ls='ls --color=auto'" >> ~/.bashrc
 
+
+# FireWall
+sudo ufw allow 21/tcp
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 3000/tcp
+sudo ufw allow 5000/tcp
+sudo ufw allow 8080/tcp
+sudo ufw allow 9000/tcp
+
 # Complementos
 #
 # ** easypanel
