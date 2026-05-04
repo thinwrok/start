@@ -47,6 +47,7 @@ echo "alias ls='ls --color=auto'" >> ~/.bashrc
 # curl -fsSL https://get.casaos.io/update | sudo bash
 # curl -sSL setup.oriondesign.art.br | sudo sh
 # URL=https://www.aapanel.com/script/install_panel_en.sh && if [ -f /usr/bin/curl ];then curl -ksSO $URL ;else wget --no-check-certificate -O install_panel_en.sh $URL;fi;bash install_panel_en.sh ipssl
+# curl https://crontab.guru/install | sh   --- https://crontab.guru/dashboard.html
 
 # Uninstall shelhost Feitos em docker 
 # sudo docker stop $(sudo docker ps -aq) && sudo docker rm -f $( sudo docker ps -aq)  && sudo docker container prune --force && sudo docker image prune --all --force && sudo docker volume prune --all --force && sudo docker system prune --all --volumes --force
