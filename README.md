@@ -33,9 +33,12 @@
 |---|:---:|---|---|
 | `sudo` | 🔐 | Privilégios | Executa comandos como super‑usuário (`root`) com auditoria. |
 | `nano` | ✏️ | Editor | Editor de texto simples, amigável para iniciantes. |
+| `nano` | ✏️ | Editor | Editor de texto |
+| `nano` | ✏️ | Editor | Editor de texto |
 | `htop` | 📊 | Monitoramento | Visão interativa de processos, CPU, memória e swap. |
 | `neofetch` | 🎯 | Info | Exibe informações do sistema com arte ASCII estilizada. |
 | `mc` | 📂 | Arquivos | Midnight Commander — gerenciador de arquivos em modo texto (estilo Norton). |
+| `mc` | 📂 | Arquivos |  |
 | `tmux` | 🪟 | Sessões | Multiplexador de terminal: múltiplas sessões, janelas e splits persistentes. |
 | `tar` | 🗜️ | Compactação | Empacota e compacta arquivos `.tar`, `.tar.gz`, `.tar.bz2`. |
 | `zip` / `unzip` | 📦 | Compactação | Cria e extrai arquivos `.zip` (compatível com Windows). |
