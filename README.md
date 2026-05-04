@@ -58,6 +58,7 @@
 | `rsync` | 🔄 | Sincronização incremental e eficiente de arquivos local ↔ remoto. |
 | `iputils-ping` | 🏓 | Comando `ping` — diagnóstico básico de conectividade ICMP. |
 | `openssl` | 🔒 | Criptografia, geração de certificados SSL/TLS, hashes e chaves. |
+| `tcpdump` | 🧱 | UI | Cria menus e interfaces TUI em scripts shell. |
  
 ### 🛡️ Segurança e utilitários do sistema
  
