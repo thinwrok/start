@@ -44,6 +44,7 @@ sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw allow 3000/tcp
 sudo ufw allow 5000/tcp
+sudo ufw allow 8000/tcp
 sudo ufw allow 8080/tcp
 sudo ufw allow 9000/tcp
 sudo ufw allow 9090/tcp
