@@ -49,6 +49,7 @@ sudo ufw allow 8080/tcp
 sudo ufw allow 9000/tcp
 sudo ufw allow 9090/tcp
 
+
 # Complementos
 #
 # ** easypanel
