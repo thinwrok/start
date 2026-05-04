@@ -67,7 +67,8 @@
 |---|:---:|---|
 | `apt-utils` | 🧰 | Utilitários extras do APT (`apt-extracttemplates`, `apt-sortpkgs`). |
 | `apache2-utils` | 🌐 | Ferramentas HTTP: `ab` (benchmark), `htpasswd` (auth básica), `htdigest`. |
- 
+| `ufw` | 🧱 | firewall manager for Ubuntu is UFW - [https://www.wireshark.org/docs/wsug_html_chunked/ChCustCommandLine.html](https://ubuntu.com/server/docs/how-to/security/firewalls/) |
+
 ---
  
 ## 💻 Instalação
