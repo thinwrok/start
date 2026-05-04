@@ -36,6 +36,7 @@
 | `helix` | ✏️ | Editor | Editor de texto , post-modern text  |
 | `tilde` | ✏️ | Editor | Editor de texto , editor for the console/terminal |
 | `htop` | 📊 | Monitoramento | Visão interativa de processos, CPU, memória e swap. |
+| `glances` | 📊 | Monitoramento | ( sudo glances -w ) processos, CPU, memória e swap. |
 | `neofetch` | 🎯 | Info | Exibe informações do sistema com arte ASCII estilizada. |
 | `mc` | 📂 | Arquivos | Midnight Commander — gerenciador de arquivos em modo texto (estilo Norton). |
 | `lfm` | 📂 | Arquivos | Last File Manager |
