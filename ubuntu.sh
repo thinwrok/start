@@ -65,6 +65,10 @@ sudo ufw allow 8080/tcp
 # ** ajenti
 # curl https://raw.githubusercontent.com/ajenti/ajenti/master/scripts/install.sh | sudo bash -s -
 # 
+# ** 1panel
+# bash -c "$(curl -sSL https://resource.1panel.pro/v2/quick_start.sh)"
+#
+
 # curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
 # curl -sSL https://dokploy.com/install.sh | sudo sh
 # curl -fsSL https://get.casaos.io/update | sudo bash
