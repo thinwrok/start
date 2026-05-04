@@ -33,12 +33,12 @@
 |---|:---:|---|---|
 | `sudo` | 🔐 | Privilégios | Executa comandos como super‑usuário (`root`) com auditoria. |
 | `nano` | ✏️ | Editor | Editor de texto simples, amigável para iniciantes. |
-| `helix` | ✏️ | Editor | Editor de texto |
-| `tilde` | ✏️ | Editor | Editor de texto |
+| `helix` | ✏️ | Editor | Editor de texto , post-modern text  |
+| `tilde` | ✏️ | Editor | Editor de texto , editor for the console/terminal |
 | `htop` | 📊 | Monitoramento | Visão interativa de processos, CPU, memória e swap. |
 | `neofetch` | 🎯 | Info | Exibe informações do sistema com arte ASCII estilizada. |
 | `mc` | 📂 | Arquivos | Midnight Commander — gerenciador de arquivos em modo texto (estilo Norton). |
-| `lfm` | 📂 | Arquivos |  |
+| `lfm` | 📂 | Arquivos | Last File Manager |
 | `tmux` | 🪟 | Sessões | Multiplexador de terminal: múltiplas sessões, janelas e splits persistentes. |
 | `tar` | 🗜️ | Compactação | Empacota e compacta arquivos `.tar`, `.tar.gz`, `.tar.bz2`. |
 | `zip` / `unzip` | 📦 | Compactação | Cria e extrai arquivos `.zip` (compatível com Windows). |
