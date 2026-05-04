@@ -59,7 +59,8 @@
 | `iputils-ping` | 🏓 | Comando `ping` — diagnóstico básico de conectividade ICMP. |
 | `openssl` | 🔒 | Criptografia, geração de certificados SSL/TLS, hashes e chaves. |
 | `tcpdump` | 🧱 | é ideal para capturar tráfego no terminal e salvar em um arquivo para análise posterior. |
- 
+| `wireshark` | 🧱 | capturar tráfego no terminal - https://www.wireshark.org/docs/wsug_html_chunked/ChCustCommandLine.html |
+
 ### 🛡️ Segurança e utilitários do sistema
  
 | Pacote | Ícone | Descrição |
