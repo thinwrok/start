@@ -17,7 +17,7 @@
 
 # Recursos
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker neofetch helix tilde lfm glances tcpdump wireshark 
+sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker neofetch helix tilde lfm glances tcpdump wireshark ufw 
 sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 
