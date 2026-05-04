@@ -76,21 +76,7 @@
 sudo apt update && sudo apt upgrade -y
 ```
  
-### Método 1 — Instalação manual *(recomendado para aprender)*
- 
-```bash
-# 🔧 Pacotes principais (sistema, rede, dev, automação)
-sudo apt install -y \
-  sudo curl wget nano htop mc tar rpm zip unzip git jq dialog \
-  openssl tmux rsync iputils-ping cpu-checker neofetch
- 
-# 🛡️ Utilitários extras de segurança e sistema
-sudo apt install -y apt-utils apache2-utils
-```
- 
-> 💡 **Dica:** o pacote `sudo` já costuma vir instalado por padrão no Ubuntu Server — o comando acima apenas garante sua presença.
- 
-### Método 2 — Script automatizado Thinwork *(rápido)*
+### Método — Script automatizado Thinwork *(rápido)*
  
 ```bash
 curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
@@ -102,38 +88,6 @@ curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 > less ubuntu.sh        # revisar
 > sudo bash ubuntu.sh   # executar após validar
 > ```
- 
----
- 
-## ✅ Verificação pós‑instalação
- 
-Após a instalação, valide o ambiente com os comandos abaixo:
- 
-```bash
-# Versões das principais ferramentas
-git --version && curl --version | head -1 && jq --version
- 
-# Estilo: mostra info do sistema
-neofetch
- 
-# Monitoramento em tempo real
-htop
- 
-# Verifica suporte a virtualização (útil para Docker/KVM)
-sudo kvm-ok
-```
- 
-**Saída esperada (exemplo):**
- 
-```text
-git version 2.43.0
-curl 8.5.0 (x86_64-pc-linux-gnu) ...
-jq-1.7
-INFO: /dev/kvm exists
-KVM acceleration can be used
-```
-
----
  
 
 ## 📞 Suporte
