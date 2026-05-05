@@ -31,13 +31,13 @@ clone_or_update() {
   fi
 }
 
-#--- 1. Pacotes base -----------------------------------------------------------
+#---  Pacotes base -----------------------------------------------------------
 log "Atualizando índice APT e instalando pacotes base..."
 sudo apt-get update -qq
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
   zsh powerline fonts-powerline git curl wget ca-certificates
 
-#--- 2. Shell padrão -----------------------------------------------------------
+#---  Shell padrão -----------------------------------------------------------
 ZSH_BIN=$(command -v zsh)
 if [[ "$(getent passwd "$USER" | cut -d: -f7)" != "$ZSH_BIN" ]]; then
   log "Definindo Zsh como shell padrão..."
@@ -46,7 +46,7 @@ else
   log "Zsh já é o shell padrão."
 fi
 
-#--- 3. Oh My Zsh --------------------------------------------------------------
+#---  Oh My Zsh --------------------------------------------------------------
 if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
   log "Instalando Oh My Zsh..."
   RUNZSH=no CHSH=no KEEP_ZSHRC=no \
@@ -60,13 +60,13 @@ log "Instalando/atualizando tema Powerlevel10k..."
 clone_or_update https://github.com/romkatv/powerlevel10k.git \
   "$ZSH_CUSTOM/themes/powerlevel10k"
 
-#--- 5. Plugins ----------------------------------------------------------------
+#---  Plugins ----------------------------------------------------------------
 log "Instalando/atualizando plugins..."
 clone_or_update https://github.com/zsh-users/zsh-autosuggestions      "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
 clone_or_update https://github.com/zsh-users/zsh-syntax-highlighting  "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 clone_or_update https://github.com/zsh-users/zsh-completions          "$ZSH_CUSTOM/plugins/zsh-completions"
 
-#--- 6. Configuração do ~/.zshrc -----------------------------------------------
+#---  Configuração do ~/.zshrc -----------------------------------------------
 log "Aplicando configuração do ~/.zshrc..."
 ZSHRC="$HOME/.zshrc"
 [[ -f $ZSHRC ]] && cp "$ZSHRC" "$ZSHRC.bak.$(date +%Y%m%d-%H%M%S)"
@@ -105,22 +105,8 @@ export EDITOR=nano
 $END_TAG
 EOF
 
-#--- 7. Resumo -----------------------------------------------------------------
-log "Concluído com sucesso."
-cat <<EOF
 
-  Shell padrão : $ZSH_BIN
-  Tema         : powerlevel10k/powerlevel10k
-  Plugins      : git, docker, docker-compose, sudo, command-not-found,
-                 history, zsh-autosuggestions, zsh-syntax-highlighting,
-                 zsh-completions
-  Backup       : $ZSHRC.bak.*
-
-  Dica: no terminal CLIENTE, instale uma Nerd Font (ex: MesloLGS NF) para os ícones.
-
-EOF
-
-#--- 8. Inicia o Zsh automaticamente -------------------------------------------
+#--- Inicia o Zsh automaticamente -------------------------------------------
 # Detecta se o script foi "sourced" (. ./setup-zsh.sh) ou executado (./setup-zsh.sh).
 # Se sourced -> exec substitui o shell atual (transição transparente).
 # Se executado -> usa exec zsh -l no processo do terminal pai via técnica padrão.
