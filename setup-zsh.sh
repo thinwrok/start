@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
-#====================================================================================
+#==========================================================================================
 # Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
 #
 # Provisiona Zsh + Oh My Zsh + Powerlevel10k + plugins no Ubuntu 24.04 LTS.
-# Idempotente: pode ser executado múltiplas vezes sem efeitos colaterais.
+# Idempotente: pode ser executado múltiplas vezes sem efeitos colaterais. ( junior ) 
+#
+# curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | sudo bash
+# wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | sudo bash
 #
 # Uso:   ./setup-zsh.sh
-#====================================================================================
+#==========================================================================================
 set -euo pipefail
 
 #--- Helpers -------------------------------------------------------------------
