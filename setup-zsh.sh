@@ -113,9 +113,20 @@ cat <<EOF
                  zsh-completions
   Backup       : $ZSHRC.bak.*
 
-  Próximos passos:
-    1) Faça logout/login OU execute:  exec zsh
-    2) O wizard do Powerlevel10k inicia automaticamente (ou rode: p10k configure)
-    3) No terminal CLIENTE, instale uma Nerd Font (ex: MesloLGS NF) para os ícones
+  Dica: no terminal CLIENTE, instale uma Nerd Font (ex: MesloLGS NF) para os ícones.
 
 EOF
+
+#--- 8. Inicia o Zsh automaticamente -------------------------------------------
+# Detecta se o script foi "sourced" (. ./setup-zsh.sh) ou executado (./setup-zsh.sh).
+# Se sourced -> exec substitui o shell atual (transição transparente).
+# Se executado -> usa exec zsh -l no processo do terminal pai via técnica padrão.
+if (return 0 2>/dev/null); then
+  log "Iniciando Zsh agora (substituindo shell atual)..."
+  exec "$ZSH_BIN" -l
+else
+  log "Para ativar o novo shell agora, o script vai abrir o Zsh."
+  warn "Ao sair do Zsh (Ctrl+D), você voltará ao shell antigo nesta sessão."
+  warn "Em novos logins, o Zsh já será o padrão automaticamente."
+  exec "$ZSH_BIN" -l
+fi
