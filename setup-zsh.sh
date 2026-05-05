@@ -89,9 +89,17 @@ setopt HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE HIST_FIND_NO_DUPS HIST_SAVE_NO_DUP
 # Aliases
 alias ll='ls -lah --color=auto'
 alias la='ls -A'
-alias ..='cd ..'
-alias ...='cd ../..'
 alias grep='grep --color=auto'
+alias diskg='df -BG'
+alias diskm='df -h'
+alias busca='find / -iname'
+alias grepfile='grep -rnw . -e'
+alias memoria='free -h'
+alias jf='journalctl -f'
+alias jerr='journalctl -p err..emerg -xb'
+alias jss='journalctl -u ssh -f'
+alias jh='journalctl --since "1 hour ago"'
+
 
 # Docker
 alias dps='docker ps'
