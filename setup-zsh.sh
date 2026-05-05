@@ -96,10 +96,16 @@ alias grep='grep --color=auto'
 # Docker
 alias dps='docker ps'
 alias dpsa='docker ps -a'
-alias di='docker images'
+alias dimg='docker images'
 alias dcup='docker compose up -d'
 alias dcdown='docker compose down'
 alias dclogs='docker compose logs -f'
+alias dke='docker exec -it'
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias dstop='docker stop'
+alias dkps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"'
+alias dkclean='sudo docker stop $(sudo docker ps -aq) && sudo docker rm -f $( sudo docker ps -aq)'
 
 export EDITOR=nano
 $END_TAG
