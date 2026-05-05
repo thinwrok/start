@@ -24,9 +24,9 @@ sudo apt install -y apache2-utils
 
 # Programação 
 cd /	
-#	sudo apt install -y perl python3 npm nodejs golang
-#	sudo apt install -y python-is-python3
-#	sudo npm install --global yarn
+# sudo apt install -y perl python3 npm nodejs golang
+# sudo apt install -y python-is-python3
+# sudo npm install --global yarn
 # nodejs --version && npm --version && yarn --version && python --version && go version && perl --version 
 
 
