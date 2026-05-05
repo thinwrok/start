@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-#===============================================================================
-# setup-zsh.sh
+#====================================================================================
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+#
 # Provisiona Zsh + Oh My Zsh + Powerlevel10k + plugins no Ubuntu 24.04 LTS.
 # Idempotente: pode ser executado múltiplas vezes sem efeitos colaterais.
 #
 # Uso:   ./setup-zsh.sh
-# Após:  faça logout/login (ou execute `exec zsh`) para aplicar.
-#===============================================================================
+#====================================================================================
 set -euo pipefail
 
 #--- Helpers -------------------------------------------------------------------
