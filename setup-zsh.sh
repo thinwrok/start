@@ -69,10 +69,10 @@ clone_or_update https://github.com/zsh-users/zsh-completions          "$ZSH_CUST
 mkdir -p "$ZSH_CUSTOM/fontes/nerd-fonts"
 clone_or_update https://github.com/romkatv/nerd-fonts.git   "$ZSH_CUSTOM/fontes/nerd-fonts"
 
-wget -qO- https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
-wget -qO- https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf    
-wget -qO- https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf   
-wget -qO- https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf   
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
 
 #---  Configuração do ~/.zshrc -----------------------------------------------
 log "Aplicando configuração do ~/.zshrc..."
