@@ -84,5 +84,18 @@ sudo ufw allow 8080/tcp
 # Uninstall shelhost Feitos em docker 
 # sudo docker stop $(sudo docker ps -aq) && sudo docker rm -f $( sudo docker ps -aq)  && sudo docker container prune --force && sudo docker image prune --all --force && sudo docker volume prune --all --force && sudo docker system prune --all --volumes --force
 
+# lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
+# ctop
+sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7-linux-amd64 -O /usr/local/bin/ctop
+sudo chmod +x /usr/local/bin/ctop
+
+# oxker
+docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock:ro --pull=always mrjackwills/oxker
+
+
+
+
 
 
