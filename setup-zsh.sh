@@ -99,6 +99,8 @@ alias jf='journalctl -f'
 alias jerr='journalctl -p err..emerg -xb'
 alias jss='journalctl -u ssh -f'
 alias jh='journalctl --since "1 hour ago"'
+alias tdn='sudo tcpdump -n'
+alias tdi='sudo tcpdump -i eth0'
 
 
 # Docker
