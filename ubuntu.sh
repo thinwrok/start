@@ -22,7 +22,7 @@ sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 # sudo apt install -y python3 python3-pip
 # sudo apt install -y golang golang-go
-# sudo apt install -y nodejs
+# sudo apt install -y nodejs npm &&  node -v && npm --version
 
 
 # Ambiente Lang
