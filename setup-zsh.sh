@@ -57,14 +57,20 @@ fi
 
 #--- 4. Tema Powerlevel10k -----------------------------------------------------
 log "Instalando/atualizando tema Powerlevel10k..."
-clone_or_update https://github.com/romkatv/powerlevel10k.git \
-  "$ZSH_CUSTOM/themes/powerlevel10k"
+clone_or_update https://github.com/romkatv/powerlevel10k.git "$ZSH_CUSTOM/themes/powerlevel10k"
 
 #---  Plugins ----------------------------------------------------------------
 log "Instalando/atualizando plugins..."
 clone_or_update https://github.com/zsh-users/zsh-autosuggestions      "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
 clone_or_update https://github.com/zsh-users/zsh-syntax-highlighting  "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 clone_or_update https://github.com/zsh-users/zsh-completions          "$ZSH_CUSTOM/plugins/zsh-completions"
+
+#---  fontes ----------------------------------------------------------------
+clone_or_update https://github.com/romkatv/nerd-fonts.git && cd nerd-fonts && ./build 'Meslo/S/*'
+clone_or_update https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+clone_or_update https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+clone_or_update https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+clone_or_update https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
 
 #---  Configuração do ~/.zshrc -----------------------------------------------
 log "Aplicando configuração do ~/.zshrc..."
