@@ -47,7 +47,7 @@
 | `git` | 🔀 | Versionamento | Controle de versão distribuído — base do GitHub/GitLab. |
 | `jq` | 🧩 | JSON | Processador de JSON na linha de comando — essencial para APIs. |
 | `dialog` | 🧱 | UI | Cria menus e interfaces TUI em scripts shell. |
-| `cpu-checker` | ⚙️ | Hardware | Verifica suporte a virtualização (KVM/VT‑x/AMD‑V). |
+| `cpu-checker` | ⚙️ | Hardware | Verifica suporte a virtualização (KVM/VT‑x/AMD‑V). (  sudo kvm-ok  ) |
  
 ### 🌐 Rede e conectividade
  
