@@ -27,8 +27,7 @@ cd /
 #	sudo apt install -y perl python3 npm nodejs golang
 #	sudo apt install -y python-is-python3
 #	sudo npm install --global yarn
-# sudo curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
-# nodejs --version && npm --version && yarn --version && python --version && go version && perl --version && java -version && rustc --version
+# nodejs --version && npm --version && yarn --version && python --version && go version && perl --version 
 
 
 # Ambiente Lang
