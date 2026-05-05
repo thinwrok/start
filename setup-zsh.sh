@@ -65,12 +65,7 @@ clone_or_update https://github.com/zsh-users/zsh-autosuggestions      "$ZSH_CUST
 clone_or_update https://github.com/zsh-users/zsh-syntax-highlighting  "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 clone_or_update https://github.com/zsh-users/zsh-completions          "$ZSH_CUSTOM/plugins/zsh-completions"
 
-#---  fontes ----------------------------------------------------------------
-mkdir -p "$ZSH_CUSTOM/fontes/nerd-fonts"
-clone_or_update https://github.com/romkatv/nerd-fonts.git   "$ZSH_CUSTOM/fontes/nerd-fonts"
-./build 'Meslo/S/*'
 
- 
 #---  Configuração do ~/.zshrc -----------------------------------------------
 log "Aplicando configuração do ~/.zshrc..."
 ZSHRC="$HOME/.zshrc"
