@@ -5,8 +5,8 @@
 # Provisiona Zsh + Oh My Zsh + Powerlevel10k + plugins no Ubuntu 24.04 LTS.
 # Idempotente: pode ser executado múltiplas vezes sem efeitos colaterais. ( junior ) 
 #
-# curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | sudo bash
-# wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | sudo bash
+# curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | bash
+# wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/setup-zsh.sh | bash
 #
 # Uso:   ./setup-zsh.sh
 #==========================================================================================
