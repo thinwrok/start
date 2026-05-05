@@ -20,9 +20,15 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker neofetch tilde lfm glances tcpdump wireshark ncdu btop
 sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
-# sudo apt install -y python3 python3-pip
-# sudo apt install -y golang golang-go
-# sudo apt install -y nodejs npm &&  node -v && npm --version
+
+
+# Programação 
+cd /	
+#	sudo apt install -y perl python3 npm nodejs golang
+#	sudo apt install -y python-is-python3
+#	sudo npm install --global yarn
+# sudo curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+# nodejs --version && npm --version && yarn --version && python --version && go version && perl --version && java -version && rustc --version
 
 
 # Ambiente Lang
