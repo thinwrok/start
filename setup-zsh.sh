@@ -66,7 +66,7 @@ clone_or_update https://github.com/zsh-users/zsh-syntax-highlighting  "$ZSH_CUST
 clone_or_update https://github.com/zsh-users/zsh-completions          "$ZSH_CUSTOM/plugins/zsh-completions"
 
 #---  fontes ----------------------------------------------------------------
-mkdir $ZSH_CUSTOM/fontes/nerd-fonts
+mkdir -p $ZSH_CUSTOM/fontes/nerd-fonts
 clone_or_update https://github.com/romkatv/nerd-fonts.git                                             $ZSH_CUSTOM/fontes/nerd-fonts 
 cd /nerd-fonts && ./build 'Meslo/S/*'
 clone_or_update https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf $ZSH_CUSTOM/fontes/nerd-fonts/MesloLGS%20NF%20Regular.ttf
