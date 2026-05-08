@@ -135,6 +135,17 @@ disable_selinux() {
     fi
 }
 
+check_hostname_fqdn() {
+    local hn fqdn
+    hn=$(hostname)
+    fqdn=$(hostname -f 2>/dev/null || echo "$hn")
+    log "Hostname: $hn / FQDN: $fqdn"
+    if [[ "$fqdn" != *.*.* ]] && [[ "$fqdn" != *.* ]]; then
+        warn "Hostname não parece um FQDN (ex: mail.seudominio.com.br)."
+        warn "Configure /etc/hostname e /etc/hosts antes de adicionar domínio no Mail Server."
+    fi
+}
+
 configure_bash_prompt() {
     local target_user="${SUDO_USER:-root}"
     local user_home
