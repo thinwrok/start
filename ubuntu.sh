@@ -95,7 +95,8 @@ sudo chmod +x /usr/local/bin/ctop
 # oxker
 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock:ro --pull=always mrjackwills/oxker
 
-
+# Documentação referencia 
+# https://blog.patrickbrandao.com/debian-ajustes-finos/
 
 
 
