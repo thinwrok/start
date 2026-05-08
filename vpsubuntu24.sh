@@ -1,13 +1,21 @@
 #!/usr/bin/env bash
-#===============================================================================
-# Nome:         setup-ubuntu.sh
-# Descrição:    Provisionamento inicial de servidor Ubuntu 24.04 LTS
-#               (locale pt_BR, timezone America/Sao_Paulo, pacotes essenciais
-#               e ferramentas de desenvolvimento/sysadmin)
+# =================================================================================================
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+#
+# Ubuntu 24.XX - Provisionamento inicial de servidor Ubuntu 24 - ( Junior / Lucas  )
 # Compatível:   Ubuntu 24.04 LTS (Noble Numbat)
-# Uso:          sudo ./vpsubuntu24.sh
-#===============================================================================
-
+# 
+# curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/vpsubuntu24.sh | sudo bash
+# wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/vpsubuntu24.sh| sudo bash
+# curl -fsSL https://thinwork.com.br/dev/vpsubuntu24.sh | sudo bash
+#
+#       +---------------------------------------------------------------+
+#       | Procedimento Apos Install ISO padrao - Ubuntu 24 Server LTS   |
+#       +---------------------------------------------------------------+
+#
+#                    ** Uso em ( Servidor / VPS ) Interno **
+#              Sem regras de segurança para máquinas expostas à web 
+# ==================================================================================================
 set -Eeuo pipefail
 IFS=$'\n\t'
 
