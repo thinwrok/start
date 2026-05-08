@@ -202,6 +202,7 @@ main() {
     configure_locale
     configure_timezone
     disable_selinux
+    check_hostname_fqdn
     configure_bash_prompt
 
     show_summary
