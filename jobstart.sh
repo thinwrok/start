@@ -1,5 +1,14 @@
-# Opcional: apagar crontab do root (legado da versao anterior)
-# echo | crontab -;
+# =================================================================================================
+# Thinwork - ti@thinwork.com.br - Devops - Tecnologia - Consultoria - Desenvolvimento
+#
+# Ubuntu 24.XX - Desenvolvimento - DevTools - Docker - easypanel - util - ( Junior )
+#
+# curl -fsSL https://raw.githubusercontent.com/thinwrok/start/main/jobstart.sh | sudo bash
+# wget -qO-  https://raw.githubusercontent.com/thinwrok/start/main/jobstart.sh | sudo bash
+# curl -fsSL https://thinwork.com.br/dev/jobstart.sh | sudo bash
+#
+# ==================================================================================================
+# ver como esta --- echo | crontab -;
 
 # Criar diretorios dos scripts periodicos:
 
@@ -61,4 +70,7 @@ mkdir -p /etc/cron.sunday;
 ) > /etc/crontab;
 
 # Conferir se instalou agendadores:
+
+
+
 cat /etc/crontab;
