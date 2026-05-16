@@ -21,8 +21,10 @@ sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog 
 sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 sudo apt install -y swaks
-sudo apt install -y cpu-x
 
+# Verificar Hardware
+# sudo apt install -y cpu-x
+# " lscpu "  ,  " / cat /proc/cpuinfo " , " sensors "
 
 # Programação 
 cd /	
