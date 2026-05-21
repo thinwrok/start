@@ -17,7 +17,7 @@
 
 # Recursos
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker tilde lfm glances tcpdump wireshark ncdu btop curl realpath dirname
+sudo apt install -y sudo curl wget nano htop mc tar rpm zip unzip git jq dialog openssl tmux fish rsync iputils-ping cpu-checker tilde lfm glances tcpdump ncdu btop 
 sudo apt install -y apt-utils
 sudo apt install -y apache2-utils
 sudo apt install -y swaks
