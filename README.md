@@ -100,9 +100,9 @@ curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 
 
 
-> ⚠️ **Configurações de segurança que toda VPS deveria Basica **:
-> 
-> ```bash
+### **Configurações de segurança que toda VPS deveria Basica **:
+
+```bash
 // Acessar vps via ssh
 ssh root@IP_DO_SERVIDOR
 
@@ -189,7 +189,7 @@ sudo dpkg-reconfigure unattended-upgrades
 
 // Alternativa para visualizar tentativas de login
 sudo tail -f /var/log/auth.log
-> ```
+```
 
 
 
