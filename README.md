@@ -98,6 +98,101 @@ curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 
 
 
+
+
+> ⚠️ **Configurações de segurança que toda VPS deveria Basica **:
+> 
+> ```bash
+// Acessar vps via ssh
+ssh root@IP_DO_SERVIDOR
+
+// Atualizar o sistema
+sudo apt update
+sudo apt upgrade -y
+
+// Criar um novo usuário administrador
+sudo adduser SEU_USER
+sudo usermod -aG sudo SEU_USER
+
+// Testar se o usuário tem o grupo sudo
+// Se aparecer sudo o usuário tem privilégio administrativos
+groups SEU_USER
+
+// Gerar chave SSH (Windows, Linux e macOS)
+ssh-keygen -t ed25519 -C "email@email.com"
+
+// Visualizar a chave pública (Linux/macOS)
+cat ~/.ssh/id_ed25519.pub
+
+// Copiar chave para o servidor (Linux/macOS)
+ssh-copy-id -i ~/.ssh/nome-da-key.pub SEU_USER@IP_DO_SERVIDOR
+
+// Conectar ao servidor
+ssh SEU_USER@IP_DO_SERVIDOR
+
+// Editar configuração do SSH
+sudo nano /etc/ssh/sshd_config
+
+// Desabilitar login root
+PermitRootLogin no
+
+// Desabilitar login por senha
+PasswordAuthentication no
+
+// Desabilitar interação com senha
+KbdInteractiveAuthentication no
+
+// Alterar porta SSH (opcional)
+Port 2222
+
+// Reiniciar serviço SSH
+sudo systemctl restart ssh
+
+// Instalar firewall Uncomplicated Firewall - UFW
+sudo apt install ufw -y
+
+// Liberar SSH
+sudo ufw allow 22/tcp
+
+// Liberar SSH em porta customizada (caso altere a porta)
+sudo ufw allow 2222/tcp
+
+// Liberar HTTP
+sudo ufw allow 80/tcp
+
+// Liberar HTTPS
+sudo ufw allow 443/tcp
+
+// Ativar firewall
+sudo ufw enable
+
+// Verificar regras do firewall
+sudo ufw status
+
+// Instalar Fail2Ban
+sudo apt install fail2ban -y
+
+// Habilitar Fail2Ban
+sudo systemctl enable fail2ban
+
+// Iniciar Fail2Ban
+sudo systemctl start fail2ban
+
+// Verificar status do Fail2Ban
+sudo systemctl status fail2ban
+
+// Instalar atualizações automáticas
+sudo apt install unattended-upgrades -y
+
+// Configurar atualizações automáticas
+sudo dpkg-reconfigure unattended-upgrades
+
+// Alternativa para visualizar tentativas de login
+sudo tail -f /var/log/auth.log
+> ```
+
+
+
 ## 📞 Suporte
  
 | Canal | Contato |
