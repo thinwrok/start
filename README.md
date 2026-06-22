@@ -100,17 +100,18 @@ curl -fsSL https://thinwork.com.br/dev/ubuntu.sh | sudo bash
 
 
 
-### **Configurações de segurança que toda VPS deveria Basica **:
+### ** Configurações Basicas de segurança para uma VPS ou maquina linux ou wsl com acesso remoto liberado **:
 
 ```bash
+
 // Acessar vps via ssh
 ssh root@IP_DO_SERVIDOR
 
-// Atualizar o sistema
+// Atualizar o sistema - Verificar qual o sua ferramente de pacote favorita
 sudo apt update
 sudo apt upgrade -y
 
-// Criar um novo usuário administrador
+// Criar um novo usuário super ou administrador 
 sudo adduser SEU_USER
 sudo usermod -aG sudo SEU_USER
 
@@ -189,6 +190,7 @@ sudo dpkg-reconfigure unattended-upgrades
 
 // Alternativa para visualizar tentativas de login
 sudo tail -f /var/log/auth.log
+
 ```
 
 
